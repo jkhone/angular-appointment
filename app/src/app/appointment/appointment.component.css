@@ -1,0 +1,24 @@
+/* Home page */
+.form-container {
+    margin-top: 50px;
+    max-width: 350px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container button {
+    margin-top: 10px;
+    width: 350px;
+    transition: transform .5s;
+}
+
+.form-container button:hover {
+    transform: scale(1.05);
+}
+
+.form-container button a {
+    color: inherit;
+}
